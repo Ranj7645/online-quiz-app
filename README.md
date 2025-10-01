@@ -13,9 +13,6 @@ A clean, simple workflow makes it easy to extend and add more quizzes.
 Workflow of the Application:---- >> 
 
 
-
-The user opens the frontend React app at http://localhost:3000
-
 On load, the frontend calls the backend endpoint /api/quizzes to fetch a list of available quizzes.
 
 The user selects a quiz, and the frontend fetches the full quiz details from /api/quizzes/:id.
